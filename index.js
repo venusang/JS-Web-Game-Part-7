@@ -9,10 +9,13 @@ const npc = newNonPlayableCharacter(50, 300)
 
 
 async function moveNPC() {
-  await npc.walkEast(2000);
-  await npc.walkSouth(1000);
-  await npc.walkWest(2000);
-  await npc.walkNorth(2000);
+  await npc.walkNorth(1400);
+  await npc.walkEast(1200);
+  await npc.walkSouth(300);
+  await npc.walkEast(1500);
+  await npc.walkSouth(1500);
+  await npc.walkWest(2700);
+  await npc.walkNorth(400);
 }
 moveNPC();
 
